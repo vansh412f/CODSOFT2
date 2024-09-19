@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saya Ji Hotel</title>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+
+<body>
+    <header>
+        <div id="icon">
+            <a href="page.html"><img src="resources/logo.png" class="transition left" alt="Hotel Logo image"></a>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#book">Rooms</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="#book" class="btns transition right">Book a Room</a>
+        </div>
+    </header>
+
+    <div id="intro">
+        <img src="resources/hotelmain.jpg" alt="hotelpic">
+    </div>
+
+
+    <div id="about">
+        <div id="abtext" class="transition left">
+            <h2>About Us</h2>
+            <p>
+                Welcome to Saya Ji Hotel, where elegance meets comfort. Since our inception, we have been committed
+                to providing our guests with an exceptional dining and hospitality experience. Our restaurant
+                combines traditional flavors with modern culinary techniques, ensuring that every meal is memorable.
+                Whether you are here for a special occasion or a casual dining experience, our attentive staff is
+                dedicated to making your visit unforgettable.
+            </p>
+        </div>
+        <div class="transition right">
+            <img src="resources/hotelpic.webp"
+                alt="Hotel Photo">
+        </div>
+    </div>
+
+
+
+    <div id="gallery">
+        <h2>Our Gallery</h2>
+
+        <div id="gallerybox">
+            <div class="galleryitem transition left" >
+                <img src="resources/room.jpg"
+                    alt="Room">
+                <div class="title">Room</div>
+            </div>
+            <div class="galleryitem transition right">
+                <img src="resources/dining.jpg"
+                    alt="Dining">
+                <div class="title">Dining</div>
+            </div>
+            <div class="galleryitem transition left">
+                <img src="resources/hall.jpg"
+                    alt="Hall">
+                <div class="title">Hall</div>
+            </div>
+            <div class="galleryitem transition right">
+                <img src="resources/pool.jpg"
+                    alt="Swimming Pool">
+                <div class="title">Swimming Pool</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="location">
+        <h2>Location</h2>
+
+        <div id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.3497084374546!2d75.89405301541112!3d22.752238985084436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd43cd34c6bb%3A0x4c7a48b8b6217220!2sSayaji%20Hotel%20Indore!5e0!3m2!1sen!2sin!4v1694109931044!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div id="contact">
+            <h2>Contact and More Info</h2>
+            <h3>Business Hours</h3>
+            <ul>
+                <li><strong>Check-in:</strong> 12:00 PM</li>
+                <li><strong>Check-out:</strong> 10:00 AM</li>
+                <li><strong>Dining Hours:</strong> 7:00 AM - 11:00 PM</li>
+                <li><strong>Spa Availability:</strong> 8:00 AM - 8:00 PM</li>
+            </ul>
+
+            <h3>Contact Information</h3>
+            <p><strong>Address:</strong> H/1, Scheme No.54, Vijay Nagar, Indore, Madhya Pradesh - 452010</p>
+            <p><strong>Phone:</strong> <a href="tel:+917314740000">0731-4740000</a></p>
+            <p><strong>Email:</strong> <a href="mailto:enquiry@sayajigroup.com">enquiry@sayajigroup.com</a></p>
+
+            <h3>Parking Information</h3>
+            <p>Valet parking is available for guests. There is also ample parking space on-site for those driving to the
+                hotel.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div id="book">
+        <h2>Book Your Stay or Reserve a Table</h2>
+        <form action="" method="post">
+            <div class="forminput">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" required placeholder="Enter your name">
+            </div>
+            <div class="forminput">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" required placeholder="Enter your email">
+            </div>
+            <div class="forminput">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" required placeholder="Enter your phone number">
+            </div>
+            <div class="forminput">
+                <label for="checkin-date">Preferred Check-in Date</label>
+                <input type="date" name="checkin-date" required>
+            </div>
+            <div class="forminput">
+                <label for="room-type">Room Type</label>
+                <select name="room-type" required>
+                    <option>Select Room Type</option>
+                    <option>Double Bed</option>
+                    <option>Single Bed</option>
+                    <option>King Size Bed</option>
+                    <option>Double Bed with Extra Mattress (3 people)</option>
+                </select>
+            </div>
+            <div id="submitcenter">
+                <div class="forminput">
+                    <button type="submit" id="submit">Reserve Now</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+    <footer>
+        <div>
+            <h3>Sayaji Hotel Indore</h3><br>
+            <p>Sayaji Hotel, AB Road, Indore, MP, India</p>
+            <p>Phone: <a href="tel:+917314740000">0731-4740000</a></p>
+            <p>Email: <a href="mailto:enquiry@sayajigroup.com">enquiry@sayajigroup.com</a></p>
+        </div>
+        <br>
+        <div id="links">
+            <a href="https://facebook.com/SayajiHotelIndore" target="_blank">Facebook</a>
+            <a href="https://instagram.com/SayajiHotelIndore" target="_blank">Instagram</a>
+            <a href="https://twitter.com/SayajiHotelIndore" target="_blank">Twitter</a>
+        </div>
+
+        <br>
+        <div class="footer-bottom">
+            <p>© 2024 Sayaji Hotel Indore. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
